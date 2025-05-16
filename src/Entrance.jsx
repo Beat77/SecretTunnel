@@ -18,7 +18,7 @@ export default function Entrance() {
       <form>
         <label>
           Name
-          <input name="name" />
+          <input name="some-username" />
         </label>
         <button>Respond</button>
       </form>
