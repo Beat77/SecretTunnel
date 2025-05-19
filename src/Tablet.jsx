@@ -1,8 +1,15 @@
 /** Button that attempts to use the token in context when clicked */
+import { AuthProvider } from "./AuthContext";
+import { useState } from "react";
+
 export default function Tablet() {
+
+  const {authenticate} = useState();
   // TODO: call authenticate when form is submitted
 
   return (
+
+
     <section>
       <p>
         The sound of your name thuds against the gate as the two badgers furrow
